@@ -14,9 +14,11 @@ spring:
       maximum-pool-size: 30
       driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/scott
-    username: root
-    password: root
+    username: user01
+    password: 1234 
+#    username: root
+#    password: root
 logging:
   level:
     root: info
-    comm.example.demo.repository: debug
+    com.example.security.repository: debug
